@@ -1,0 +1,32 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="disappoint <= 0.049\ngini = 0.252\nsamples = 70000\nvalue = [10368, 59632]"] ;
+1 [label="money <= 0.017\ngini = 0.234\nsamples = 67730\nvalue = [9171, 58559]"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="great <= 0.042\ngini = 0.222\nsamples = 65913\nvalue = [8381, 57532]"] ;
+1 -> 2 ;
+3 [label="(...)"] ;
+2 -> 3 ;
+304 [label="(...)"] ;
+2 -> 304 ;
+425 [label="wast <= 0.055\ngini = 0.491\nsamples = 1817\nvalue = [790, 1027]"] ;
+1 -> 425 ;
+426 [label="(...)"] ;
+425 -> 426 ;
+539 [label="(...)"] ;
+425 -> 539 ;
+582 [label="best <= 0.045\ngini = 0.499\nsamples = 2270\nvalue = [1197, 1073]"] ;
+0 -> 582 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+583 [label="wont <= 0.054\ngini = 0.491\nsamples = 2041\nvalue = [1157, 884]"] ;
+582 -> 583 ;
+584 [label="(...)"] ;
+583 -> 584 ;
+723 [label="(...)"] ;
+583 -> 723 ;
+766 [label="new <= 0.064\ngini = 0.288\nsamples = 229\nvalue = [40, 189]"] ;
+582 -> 766 ;
+767 [label="(...)"] ;
+766 -> 767 ;
+796 [label="(...)"] ;
+766 -> 796 ;
+}
