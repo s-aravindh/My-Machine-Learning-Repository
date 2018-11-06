@@ -1,1 +1,0 @@
-This folder contains the basic practice of python, pandas, numpy and scipy
